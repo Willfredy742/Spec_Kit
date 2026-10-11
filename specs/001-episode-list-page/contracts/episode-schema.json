@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mi-podcast.local/schemas/episode.json",
+  "title": "Episode",
+  "description": "One mock podcast episode embedded as repository content (see data-model.md).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "description", "publishedAt", "durationSeconds", "audioUrl"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable unique slug identifier."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000
+    },
+    "publishedAt": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date YYYY-MM-DD; drives newest-first ordering."
+    },
+    "durationSeconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "audioUrl": {
+      "type": "string",
+      "pattern": "^/(audio|media)/",
+      "description": "Site-relative path to the audio file; absolute URLs are rejected."
+    },
+    "coverImageUrl": {
+      "type": "string",
+      "pattern": "^/",
+      "description": "Optional site-relative artwork path."
+    }
+  }
+}

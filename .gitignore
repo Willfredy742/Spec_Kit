@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+out/
+.next/
+next-env.d.ts
+
+# Testing
+coverage/
+playwright-report/
+test-results/
+
+# Environment
+.env*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp

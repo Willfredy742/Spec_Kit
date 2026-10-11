@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ep-008-static-sites-return",
+    "title": "Why Static Sites Are Having a Renaissance",
+    "description": "We explore how statically generated sites got fast again, and why developers keep coming back to files you can host anywhere.",
+    "publishedAt": "2026-10-01",
+    "durationSeconds": 2145,
+    "audioUrl": "/audio/ep-008.wav"
+  },
+  {
+    "id": "ep-007-podcast-setup-on-a-budget",
+    "title": "Podcasting on a Budget: Microphones, Hosting, and Honest Advice",
+    "description": "A practical tour of affordable recording gear, free hosting options, and the mistakes first-time podcasters keep making with their setup.",
+    "publishedAt": "2026-09-17",
+    "durationSeconds": 2860,
+    "audioUrl": "/audio/ep-007.wav",
+    "coverImageUrl": "/cover/ep-007.svg"
+  },
+  {
+    "id": "ep-006-interview-dana-lee",
+    "title": "Interview: Dana Lee on independent audio",
+    "description": "Dana Lee shares how she produces a weekly show with no team, and what she would do differently if she started today.",
+    "publishedAt": "2026-09-03",
+    "durationSeconds": 3421,
+    "audioUrl": "/audio/ep-006.wav"
+  },
+  {
+    "id": "ep-005-editing-basics",
+    "title": "Editing basics: cuts, levels, and silence",
+    "description": "The minimal editing workflow that takes a raw recording to a publishable episode without losing your voice.",
+    "publishedAt": "2026-08-20",
+    "durationSeconds": 1780,
+    "audioUrl": "/audio/ep-005.wav"
+  },
+  {
+    "id": "ep-004-audience-growth",
+    "title": "Audience growth without algorithms",
+    "description": "Cross-promotion, guest swaps, and community building: growth tactics that still work when you cannot pay for ads.",
+    "publishedAt": "2026-08-06",
+    "durationSeconds": 2510,
+    "audioUrl": "/audio/ep-004.wav",
+    "coverImageUrl": "/cover/ep-004.svg"
+  },
+  {
+    "id": "ep-003-rss-explained",
+    "title": "RSS, feeds, and how podcasts actually work",
+    "description": "A gentle technical explanation of the feed format that still powers podcast distribution, for the terminally curious.",
+    "publishedAt": "2026-07-23",
+    "durationSeconds": 1965,
+    "audioUrl": "/audio/ep-003.wav"
+  },
+  {
+    "id": "ep-002-season-planning",
+    "title": "Planning a season",
+    "description": "How to outline a finite season so you finish what you start, and why open-ended shows are harder than they look.",
+    "publishedAt": "2026-07-09",
+    "durationSeconds": 1620,
+    "audioUrl": "/audio/ep-002.wav"
+  },
+  {
+    "id": "ep-001-welcome",
+    "title": "Welcome to mi-podcast",
+    "description": "The first episode: who we are, what this show is about, and what to expect in the weeks ahead.",
+    "publishedAt": "2026-06-25",
+    "durationSeconds": 980,
+    "audioUrl": "/audio/ep-001.wav"
+  }
+]
